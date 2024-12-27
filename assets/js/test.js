@@ -47,7 +47,7 @@ function addCard(rowContainer, dataItem){
     // create a clone of the column
     var colCardClone = colCard.cloneNode(true);
     
-    addColors(colCard, dataItem.colors)
+    //addColors(colCard, dataItem.colors)
     
     // append the clone to the container    
     rowContainer.appendChild(colCardClone);
