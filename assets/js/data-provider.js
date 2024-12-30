@@ -1,6 +1,69 @@
-﻿const jsonBrand = '[{"Id": 189, "Key": "011", "Name": "Loeffler","Description": ""}]';
+﻿
+// ---------------- data -----------------
+window.brandList = `[
+{"id": 189, "key": "011", "name": "MyLady","description": "", "attributes": []},
+{"id": 190, "key": "012", "name": "A&F","description": "", "attributes": []}
+]`;
+window.seasonList =  `[
+  {
+    "id": 844,
+    "key": "151",
+    "name": "FS 2015",
+    "description": "",
+    "attributes": [{"key": "brand", "value": "011"}]
+  },
+  {
+    "id": 845,
+    "key": "142",
+    "name": "HW 2014",
+    "description": "",
+    "attributes": [{"key": "brand", "value": "011"}]
+  },
+  {
+    "id": 904,
+    "key": "172",
+    "name": "HW 2017",
+    "description": "",
+    "attributes": [{"key": "brand", "value": "012"}]
+  }
+]`;
+
+window.productList = `
+[
+  {
+    "imageID": 516558,
+    "season": "FW-2026",
+    "collection": "Women",
+    "theme": "Basic",
+    "colors": [{"key": "100", "rgb": "#4CAF50", "name": "Green"}, {"key": "200", "rgb": "#FC0F50", "name": "Red"}],
+    "sizes": ["S", "M", "L", "XL"],
+    "id": 74742,
+    "key": "30673",
+    "name": "21749",
+    "description": "Jacket",
+    "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/style3.png",
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}]
+  },
+  {
+    "imageID": 516558,
+    "season": "FW-2026",
+    "collection": "Women",
+    "theme": "Basic",
+    "colors": [{"key": "100", "rgb": "#4CAF50", "name": "Green"}, {"key": "200", "rgb": "#FC0F50", "name": "Red"}],
+    "sizes": ["S", "M", "L", "XL"],
+    "id": 74742,
+    "key": "30674",
+    "name": "21750",
+    "description": "Jacket",
+    "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/style.png",
+    "attributes": [{"key": "brand", "value": "012"}, {"key": "season", "value": "172"}]
+  }
+]
+`;
 
 
+
+// ----------- functions ------------------
 function showUserMessage(msg) {
     alert(msg);
 }
@@ -94,7 +157,7 @@ async function fetchDataFromAPI(resource) {
     }
 }
 
-function getProducts() {
+function getProducts2() {
     var products = [
         { name: 'Jennifer', description: "Woman jacket with pockets", 
             imageURL: "https://raw.githubusercontent.com/dfab1964/image/main/style3.png",
@@ -117,4 +180,47 @@ function getProducts() {
     ];
     
     return products;
+}
+
+function getFilterData(filterType, attributes) {
+    var jsonString = filterType + 'List';
+    var data = [];
+    try {
+        data = JSON.parse(window[jsonString]);        
+    } catch (error) {
+        console.log("Invalid JSON:" + jsonString, error);
+    }
+    
+    return filterByAttributes(data, attributes);
+}
+
+function filterByAttributes(data, attributes) {
+    var filteredData = [];
+        
+    data.forEach(item => {
+        var filterOK = true;
+        for (i=0; i<attributes.length; i++) {
+            if (item.attributes.findIndex(a => a.key == attributes[i].key && a.value == attributes[i].value) < 0) {
+                filterOK = false;
+                break;                
+            }
+        }
+        if (filterOK)
+            filteredData.push(item);
+    }
+    );
+
+    return filteredData;    
+}
+
+function getProducts(attributes) {
+    var data = [];
+    
+    try {
+        data = JSON.parse(window.productList);
+    } catch (parseErr) {
+        console.error('Error parsing JSON:', parseErr);
+    }
+    
+    return filterByAttributes(data, attributes);
 }
