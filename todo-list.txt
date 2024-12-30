@@ -3,7 +3,7 @@
 - Enlarge the working area (ie, remove the empry space left and right)
 - Add a space between filters (brand, season etc)
 - Add a space before the 'Search' button
-- Rename the pages (eg, features.html => products.html) - this implies also changing the href in the nav bar
+- (DONE) Rename the pages (eg, features.html => products.html) - this implies also changing the href in the nav bar
 - Rename test.js to dynamic-ui.js
 
 -- Long term issues:
