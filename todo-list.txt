@@ -1,0 +1,11 @@
+--------- TODO list
+- Rename the BS Studio project (from 'First try2' to 'go')
+- Enlarge the working area (ie, remove the empry space left and right)
+- Add a space between filters (brand, season etc)
+- Add a space before the 'Search' button
+- Rename the pages (eg, features.html => products.html) - this implies also changing the href in the nav bar
+
+-- Long term issues:
+- Decide whether implement pagination or scroll-bar for the result view
+- Create the login page
+- Create the product detail page
