@@ -1,10 +1,14 @@
 --------- TODO list
-- Rename the BS Studio project (from 'First try2' to 'go')
+- (DONE) Rename the BS Studio project (from 'First try2' to 'go')
 - Enlarge the working area (ie, remove the empry space left and right)
-- Add a space between filters (brand, season etc)
-- Add a space before the 'Search' button
+- (DONE) Add a space between filters (brand, season etc)
+- (DONE) Add a space before the 'Search' button
 - (DONE) Rename the pages (eg, features.html => products.html) - this implies also changing the href in the nav bar
-- Rename test.js to dynamic-ui.js
+- (DONE) Rename test.js to dynamic-ui.js
+- 'Key' filter is an input text
+- Implement pagination
+- Extend the filtering logic to theme, main group and group
+
 
 -- Long term issues:
 - Decide whether implement pagination or scroll-bar for the result view
