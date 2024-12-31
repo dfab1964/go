@@ -1,4 +1,4 @@
-﻿
+
 // ---------------- data -----------------
 window.brandList = `[
 {"id": 189, "key": "011", "name": "MyLady","description": "", "attributes": []},
@@ -28,6 +28,51 @@ window.seasonList =  `[
   }
 ]`;
 
+window.collectionList =  `[
+  {
+    "id": 844,
+    "key": "151-Women",
+    "name": "Women",
+    "description": "",
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}]
+  },
+  {
+    "id": 845,
+    "key": "142-Women",
+    "name": "Women",
+    "description": "",
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "142"}]
+  },
+  {
+    "id": 904,
+    "key": "172-Women",
+    "name": "Women",
+    "description": "",
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "172"}]
+  },
+  {
+    "id": 944,
+    "key": "151-Men",
+    "name": "Men",
+    "description": "",
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}]
+  },
+  {
+    "id": 945,
+    "key": "142-Men",
+    "name": "Men",
+    "description": "",
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "142"}]
+  },
+  {
+    "id": 904,
+    "key": "172-Baby",
+    "name": "Baby",
+    "description": "",
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "172"}]
+  }
+]`;
+
 window.productList = `
 [
   {
@@ -42,6 +87,132 @@ window.productList = `
     "name": "21749",
     "description": "Jacket",
     "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/style3.png",
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Men"}]
+  },
+  {
+    "imageID": 516558,
+    "season": "FW-2026",
+    "collection": "Women",
+    "theme": "Basic",
+    "colors": [{"key": "100", "rgb": "#4CAF50", "name": "Green"}, {"key": "200", "rgb": "#FC0F50", "name": "Red"}],
+    "sizes": ["S", "M", "L", "XL"],
+    "id": 74743,
+    "key": "30674",
+    "name": "21751",
+    "description": "Pants",
+    "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/21751.jpg",
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Men"}]
+  },
+  {
+    "imageID": 516558,
+    "season": "FW-2026",
+    "collection": "Women",
+    "theme": "Basic",
+    "colors": [{"key": "100", "rgb": "#4CAF50", "name": "Green"}, {"key": "200", "rgb": "#FC0F50", "name": "Red"}],
+    "sizes": ["S", "M", "L", "XL"],
+    "id": 74744,
+    "key": "30675",
+    "name": "21752",
+    "description": "Shirt",
+    "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/21752.jpg",
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Women"}]
+  },
+  {
+    "imageID": 516558,
+    "season": "FW-2026",
+    "collection": "Women",
+    "theme": "Basic",
+    "colors": [{"key": "100", "rgb": "#4CAF50", "name": "Green"}, {"key": "200", "rgb": "#FC0F50", "name": "Red"}],
+    "sizes": ["S", "M", "L", "XL"],
+    "id": 74745,
+    "key": "30680",
+    "name": "21769",
+    "description": "Jacket",
+    "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/30680.jpg",
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Women"}]
+  },
+  {
+    "imageID": 516558,
+    "season": "FW-2026",
+    "collection": "Women",
+    "theme": "Basic",
+    "colors": [{"key": "100", "rgb": "#4CAF50", "name": "Green"}, {"key": "200", "rgb": "#FC0F50", "name": "Red"}],
+    "sizes": ["S", "M", "L", "XL"],
+    "id": 74746,
+    "key": "30682",
+    "name": "21799",
+    "description": "Shirt",
+    "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/30682.jpg",
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Men"}]
+  },
+  {
+    "imageID": 516558,
+    "season": "FW-2026",
+    "collection": "Women",
+    "theme": "Basic",
+    "colors": [{"key": "100", "rgb": "#4CAF50", "name": "Green"}, {"key": "200", "rgb": "#FC0F50", "name": "Red"}],
+    "sizes": ["S", "M", "L", "XL"],
+    "id": 74747,
+    "key": "30688",
+    "name": "21789",
+    "description": "Jacket",
+    "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/30688.jpg",
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Men"}]
+  },
+  {
+    "imageID": 516558,
+    "season": "FW-2026",
+    "collection": "Women",
+    "theme": "Basic",
+    "colors": [{"key": "100", "rgb": "#4CAF50", "name": "Green"}, {"key": "200", "rgb": "#FC0F50", "name": "Red"}],
+    "sizes": ["S", "M", "L", "XL"],
+    "id": 74748,
+    "key": "30610",
+    "name": "21720",
+    "description": "Jacket",
+    "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/30610.jpg",
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Men"}]
+  },
+  {
+    "imageID": 516558,
+    "season": "FW-2026",
+    "collection": "Women",
+    "theme": "Basic",
+    "colors": [{"key": "100", "rgb": "#4CAF50", "name": "Green"}, {"key": "200", "rgb": "#FC0F50", "name": "Red"}],
+    "sizes": ["S", "M", "L", "XL"],
+    "id": 74749,
+    "key": "30643",
+    "name": "21729",
+    "description": "Jacket",
+    "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/30643.jpg",
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Women"}]
+  },
+  {
+    "imageID": 516558,
+    "season": "FW-2026",
+    "collection": "Women",
+    "theme": "Basic",
+    "colors": [{"key": "100", "rgb": "#4CAF50", "name": "Green"}, {"key": "200", "rgb": "#FC0F50", "name": "Red"}],
+    "sizes": ["S", "M", "L", "XL"],
+    "id": 74750,
+    "key": "30624",
+    "name": "21714",
+    "description": "Jacket",
+    "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/30624.jpg",
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}]
+  },
+  {
+    "imageID": 516558,
+    "season": "FW-2026",
+    "collection": "Women",
+    "theme": "Basic",
+    "colors": [{"key": "100", "rgb": "#4CAF50", "name": "Green"}, {"key": "200", "rgb": "#FC0F50", "name": "Red"}],
+    "sizes": ["S", "M", "L", "XL"],
+    "id": 74750,
+    "key": "30611",
+    "name": "21712",
+    "description": "Jacket",
+    "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/30611.jpg",
     "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}]
   },
   {
@@ -200,9 +371,12 @@ function filterByAttributes(data, attributes) {
     data.forEach(item => {
         var filterOK = true;
         for (i=0; i<attributes.length; i++) {
-            if (item.attributes.findIndex(a => a.key == attributes[i].key && a.value == attributes[i].value) < 0) {
-                filterOK = false;
-                break;                
+            if (attributes[i].value != '') {
+                if (item.attributes.findIndex(a => a.key == attributes[i].key && 
+                                                    a.value == attributes[i].value) < 0) {
+                    filterOK = false;
+                    break;                
+                }                
             }
         }
         if (filterOK)
