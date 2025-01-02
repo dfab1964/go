@@ -8,21 +8,21 @@ window.seasonList =  `[
   {
     "id": 844,
     "key": "151",
-    "name": "FS 2015",
+    "name": "SS-2015",
     "description": "",
     "attributes": [{"key": "brand", "value": "011"}]
   },
   {
     "id": 845,
     "key": "142",
-    "name": "HW 2014",
+    "name": "FW-2014",
     "description": "",
     "attributes": [{"key": "brand", "value": "011"}]
   },
   {
     "id": 904,
     "key": "172",
-    "name": "HW 2017",
+    "name": "FW-2017",
     "description": "",
     "attributes": [{"key": "brand", "value": "012"}]
   }
@@ -73,6 +73,58 @@ window.collectionList =  `[
   }
 ]`;
 
+window.themeList =  `[
+  {
+    "id": 844,
+    "key": "100",
+    "name": "Modern",
+    "description": "",
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Women"}]
+  },
+  {
+    "id": 845,
+    "key": "101",
+    "name": "New Generation",
+    "description": "",
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Women"}]
+  },
+  {
+    "id": 944,
+    "key": "200",
+    "name": "Modern",
+    "description": "",
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Men"}]
+  },
+  {
+    "id": 945,
+    "key": "201",
+    "name": "Basic",
+    "description": "",
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Women"}]
+  },
+  {
+    "id": 644,
+    "key": "300",
+    "name": "Casual",
+    "description": "",
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Men"}]
+  },
+  {
+    "id": 645,
+    "key": "301",
+    "name": "Elegant",
+    "description": "",
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Men"}]
+  },
+  {
+    "id": 646,
+    "key": "302",
+    "name": "Luxury",
+    "description": "",
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Men"}]
+  }
+]`;
+
 window.productList = `
 [
   {
@@ -87,7 +139,7 @@ window.productList = `
     "name": "21749",
     "description": "Jacket",
     "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/style3.png",
-    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Men"}]
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Men"}, {"key": "theme", "value": "300"}]
   },
   {
     "imageID": 516558,
@@ -101,7 +153,7 @@ window.productList = `
     "name": "21751",
     "description": "Pants",
     "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/21751.jpg",
-    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Men"}]
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Men"}, {"key": "theme", "value": "300"}]
   },
   {
     "imageID": 516558,
@@ -115,7 +167,7 @@ window.productList = `
     "name": "21752",
     "description": "Shirt",
     "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/21752.jpg",
-    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Women"}]
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Women"}, {"key": "theme", "value": "100"}]
   },
   {
     "imageID": 516558,
@@ -129,7 +181,7 @@ window.productList = `
     "name": "21769",
     "description": "Jacket",
     "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/30680.jpg",
-    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Women"}]
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Women"}, {"key": "theme", "value": "100"}]
   },
   {
     "imageID": 516558,
@@ -143,7 +195,7 @@ window.productList = `
     "name": "21799",
     "description": "Shirt",
     "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/30682.jpg",
-    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Men"}]
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Men"}, {"key": "theme", "value": "302"}]
   },
   {
     "imageID": 516558,
@@ -157,7 +209,7 @@ window.productList = `
     "name": "21789",
     "description": "Jacket",
     "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/30688.jpg",
-    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Men"}]
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Men"}, {"key": "theme", "value": "301"}]
   },
   {
     "imageID": 516558,
@@ -171,7 +223,7 @@ window.productList = `
     "name": "21720",
     "description": "Jacket",
     "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/30610.jpg",
-    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Men"}]
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Men"}, {"key": "theme", "value": "300"}]
   },
   {
     "imageID": 516558,
@@ -185,7 +237,7 @@ window.productList = `
     "name": "21729",
     "description": "Jacket",
     "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/30643.jpg",
-    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Women"}]
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Women"}, {"key": "theme", "value": "100"}]
   },
   {
     "imageID": 516558,
