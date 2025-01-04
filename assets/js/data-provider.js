@@ -146,7 +146,7 @@ window.productList = `
     "season": "FW-2026",
     "collection": "Women",
     "theme": "Basic",
-    "colors": [{"key": "100", "rgb": "#4CAF50", "name": "Green"}, {"key": "200", "rgb": "#FC0F50", "name": "Red"}],
+    "colors": [{"key": "100", "rgb": "#4CAF50", "name": "Green"}, {"key": "200", "rgb": "#FC0F50", "name": "Red"}, {"key": "300", "rgb": "#4CAFFF", "name": "Green"}],
     "sizes": ["S", "M", "L", "XL"],
     "id": 74743,
     "key": "30674",
@@ -160,7 +160,7 @@ window.productList = `
     "season": "FW-2026",
     "collection": "Women",
     "theme": "Basic",
-    "colors": [{"key": "100", "rgb": "#4CAF50", "name": "Green"}, {"key": "200", "rgb": "#FC0F50", "name": "Red"}],
+    "colors": [{"key": "100", "rgb": "#4CAF50", "name": "Green"}],
     "sizes": ["S", "M", "L", "XL"],
     "id": 74744,
     "key": "30675",
@@ -449,4 +449,21 @@ function getProducts(attributes) {
     }
     
     return filterByAttributes(data, attributes);
+}
+
+function getProduct(key) {
+    var product = null;
+    var data = [];
+    try {
+        data = JSON.parse(window.productList);
+        product = data.find(p => p.key = key);
+    } catch (parseErr) {
+        console.error('Error parsing JSON:', parseErr);
+    }
+
+    if (product != null) {
+        product.composition = "90% Cotton; 10% Elastane";
+    }
+    
+    return product;
 }
