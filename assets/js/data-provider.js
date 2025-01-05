@@ -139,7 +139,7 @@ window.productList = `
     "sizes": ["S", "M", "L", "XL"],
     "id": 74742,
     "key": "30673",
-    "name": "21749",
+    "name": "Jennifer",
     "description": "Jacket",
     "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/style3.png",
     "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Men"}, {"key": "theme", "value": "300"}]
@@ -161,7 +161,7 @@ window.productList = `
     "sizes": ["S", "M", "L", "XL"],
     "id": 74743,
     "key": "30674",
-    "name": "21751",
+    "name": "Sandra",
     "description": "Pants",
     "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/21751.jpg",
     "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Men"}, {"key": "theme", "value": "300"}]
@@ -177,7 +177,7 @@ window.productList = `
     "sizes": ["S", "M", "L", "XL"],
     "id": 74744,
     "key": "30675",
-    "name": "21752",
+    "name": "Lilly",
     "description": "Shirt",
     "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/21752.jpg",
     "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Women"}, {"key": "theme", "value": "100"}]
@@ -193,7 +193,7 @@ window.productList = `
     "sizes": ["S", "M", "L", "XL"],
     "id": 74745,
     "key": "30680",
-    "name": "21769",
+    "name": "Magda",
     "description": "Jacket",
     "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/30680.jpg",
     "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Women"}, {"key": "theme", "value": "100"}]
@@ -209,7 +209,7 @@ window.productList = `
     "sizes": ["S", "M", "L", "XL"],
     "id": 74746,
     "key": "30682",
-    "name": "21799",
+    "name": "Nicole",
     "description": "Shirt",
     "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/30682.jpg",
     "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Men"}, {"key": "theme", "value": "302"}]
@@ -225,7 +225,7 @@ window.productList = `
     "sizes": ["S", "M", "L", "XL"],
     "id": 74747,
     "key": "30688",
-    "name": "21789",
+    "name": "Betty",
     "description": "Jacket",
     "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/30688.jpg",
     "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Men"}, {"key": "theme", "value": "301"}]
@@ -241,7 +241,7 @@ window.productList = `
     "sizes": ["S", "M", "L", "XL"],
     "id": 74748,
     "key": "30610",
-    "name": "21720",
+    "name": "Karoline",
     "description": "Jacket",
     "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/30610.jpg",
     "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Men"}, {"key": "theme", "value": "300"}]
@@ -257,7 +257,7 @@ window.productList = `
     "sizes": ["S", "M", "L", "XL"],
     "id": 74749,
     "key": "30643",
-    "name": "21729",
+    "name": "Sara",
     "description": "Jacket",
     "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/30643.jpg",
     "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Women"}, {"key": "theme", "value": "100"}]
@@ -273,7 +273,7 @@ window.productList = `
     "sizes": ["S", "M", "L", "XL"],
     "id": 74750,
     "key": "30624",
-    "name": "21714",
+    "name": "Lara",
     "description": "Jacket",
     "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/30624.jpg",
     "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}]
@@ -289,7 +289,7 @@ window.productList = `
     "sizes": ["S", "M", "L", "XL"],
     "id": 74750,
     "key": "30611",
-    "name": "21712",
+    "name": "Annette",
     "description": "Jacket",
     "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/30611.jpg",
     "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}]
@@ -305,7 +305,7 @@ window.productList = `
     "sizes": ["S", "M", "L", "XL"],
     "id": 74742,
     "key": "30674",
-    "name": "21750",
+    "name": "Kim",
     "description": "Jacket",
     "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/style.png",
     "attributes": [{"key": "brand", "value": "012"}, {"key": "season", "value": "172"}]
@@ -485,7 +485,7 @@ function getProduct(key) {
     var data = [];
     try {
         data = JSON.parse(window.productList);
-        product = data.find(p => p.key = key);
+        product = data.find(p => p.key == key);
     } catch (parseErr) {
         console.error('Error parsing JSON:', parseErr);
     }
