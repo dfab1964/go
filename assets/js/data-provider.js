@@ -134,11 +134,11 @@ window.productList = `
     "theme": "Basic",
     "product_main_group": "Garment",
     "product_group": "Jackets",
-    "colors": [{"key": "920", "rgb": "#FCFCFC", "name": "Magenta"}
+    "colors": [{"key": "920", "rgb": "#FC00FC", "name": "Magenta"}
                 ],
     "sizes": ["S", "M", "L", "XL"],
     "id": 74742,
-    "key": "30673",
+    "key": "30001",
     "name": "Jennifer",
     "description": "Jacket",
     "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/style3.png",
@@ -151,7 +151,7 @@ window.productList = `
     "theme": "Basic",
     "product_main_group": "Garment",
     "product_group": "Pants",
-    "colors": [{"key": "100", "rgb": "#4010F0", "name": "Green"}, 
+    "colors": [{"key": "100", "rgb": "#4010F0", "name": "Blue"}, 
                 {"key": "200", "rgb": "#FC0F50", "name": "Red"},
                 {"key": "800", "rgb": "#404040", "name": "Dark Gray"},
                 {"key": "900", "rgb": "#000000", "name": "Black"},
@@ -160,7 +160,7 @@ window.productList = `
                 ],
     "sizes": ["S", "M", "L", "XL"],
     "id": 74743,
-    "key": "30674",
+    "key": "30002",
     "name": "Sandra",
     "description": "Pants",
     "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/21751.jpg",
@@ -176,7 +176,7 @@ window.productList = `
     "colors": [{"key": "100", "rgb": "#4CAF50", "name": "Green"}],
     "sizes": ["S", "M", "L", "XL"],
     "id": 74744,
-    "key": "30675",
+    "key": "30003",
     "name": "Lilly",
     "description": "Shirt",
     "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/21752.jpg",
@@ -192,7 +192,7 @@ window.productList = `
     "colors": [{"key": "100", "rgb": "#4CAF50", "name": "Green"}, {"key": "200", "rgb": "#FC0F50", "name": "Red"}],
     "sizes": ["S", "M", "L", "XL"],
     "id": 74745,
-    "key": "30680",
+    "key": "30004",
     "name": "Magda",
     "description": "Jacket",
     "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/30680.jpg",
@@ -208,7 +208,7 @@ window.productList = `
     "colors": [{"key": "100", "rgb": "#4CAF50", "name": "Green"}, {"key": "200", "rgb": "#FC0F50", "name": "Red"}],
     "sizes": ["S", "M", "L", "XL"],
     "id": 74746,
-    "key": "30682",
+    "key": "30005",
     "name": "Nicole",
     "description": "Shirt",
     "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/30682.jpg",
@@ -224,7 +224,7 @@ window.productList = `
     "colors": [{"key": "100", "rgb": "#4CAF50", "name": "Green"}, {"key": "200", "rgb": "#FC0F50", "name": "Red"}],
     "sizes": ["S", "M", "L", "XL"],
     "id": 74747,
-    "key": "30688",
+    "key": "30006",
     "name": "Betty",
     "description": "Jacket",
     "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/30688.jpg",
@@ -240,7 +240,7 @@ window.productList = `
     "colors": [{"key": "100", "rgb": "#4CAF50", "name": "Green"}, {"key": "200", "rgb": "#FC0F50", "name": "Red"}],
     "sizes": ["S", "M", "L", "XL"],
     "id": 74748,
-    "key": "30610",
+    "key": "30007",
     "name": "Karoline",
     "description": "Jacket",
     "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/30610.jpg",
@@ -256,7 +256,7 @@ window.productList = `
     "colors": [{"key": "100", "rgb": "#4CAF50", "name": "Green"}, {"key": "200", "rgb": "#FC0F50", "name": "Red"}],
     "sizes": ["S", "M", "L", "XL"],
     "id": 74749,
-    "key": "30643",
+    "key": "30008",
     "name": "Sara",
     "description": "Jacket",
     "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/30643.jpg",
@@ -272,7 +272,7 @@ window.productList = `
     "colors": [{"key": "100", "rgb": "#4CAF50", "name": "Green"}, {"key": "200", "rgb": "#FC0F50", "name": "Red"}],
     "sizes": ["S", "M", "L", "XL"],
     "id": 74750,
-    "key": "30624",
+    "key": "30009",
     "name": "Lara",
     "description": "Jacket",
     "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/30624.jpg",
@@ -288,7 +288,7 @@ window.productList = `
     "colors": [{"key": "100", "rgb": "#4CAF50", "name": "Green"}, {"key": "200", "rgb": "#FC0F50", "name": "Red"}],
     "sizes": ["S", "M", "L", "XL"],
     "id": 74750,
-    "key": "30611",
+    "key": "30010",
     "name": "Annette",
     "description": "Jacket",
     "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/30611.jpg",
@@ -304,7 +304,190 @@ window.productList = `
     "colors": [{"key": "100", "rgb": "#1010F0", "name": "Blue"}, {"key": "200", "rgb": "#FC0F50", "name": "Red"}],
     "sizes": ["S", "M", "L", "XL"],
     "id": 74742,
-    "key": "30674",
+    "key": "30011",
+    "name": "Kim",
+    "description": "Jacket",
+    "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/style.png",
+    "attributes": [{"key": "brand", "value": "012"}, {"key": "season", "value": "172"}]
+  },
+  {
+    "imageID": 516558,
+    "season": "FW-2026",
+    "collection": "Women",
+    "theme": "Basic",
+    "product_main_group": "Garment",
+    "product_group": "Jackets",
+    "colors": [{"key": "920", "rgb": "#FC00FC", "name": "Magenta"}
+                ],
+    "sizes": ["S", "M", "L", "XL"],
+    "id": 74742,
+    "key": "300012",
+    "name": "Jennifer",
+    "description": "Jacket",
+    "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/style3.png",
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Men"}, {"key": "theme", "value": "300"}]
+  },
+  {
+    "imageID": 516558,
+    "season": "FW-2026",
+    "collection": "Women",
+    "theme": "Basic",
+    "product_main_group": "Garment",
+    "product_group": "Pants",
+    "colors": [{"key": "100", "rgb": "#4010F0", "name": "Blue"}, 
+                {"key": "200", "rgb": "#FC0F50", "name": "Red"},
+                {"key": "800", "rgb": "#404040", "name": "Dark Gray"},
+                {"key": "900", "rgb": "#000000", "name": "Black"},
+                {"key": "910", "rgb": "#909090", "name": "Gray"},
+                {"key": "920", "rgb": "#FCFCFC", "name": "Magenta"}
+                ],
+    "sizes": ["S", "M", "L", "XL"],
+    "id": 74743,
+    "key": "30013",
+    "name": "Sandra",
+    "description": "Pants",
+    "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/21751.jpg",
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Men"}, {"key": "theme", "value": "300"}]
+  },
+  {
+    "imageID": 516558,
+    "season": "FW-2026",
+    "collection": "Women",
+    "theme": "Basic",
+    "product_main_group": "Garment",
+    "product_group": "Shirts",
+    "colors": [{"key": "100", "rgb": "#4CAF50", "name": "Green"}],
+    "sizes": ["S", "M", "L", "XL"],
+    "id": 74744,
+    "key": "30014",
+    "name": "Lilly",
+    "description": "Shirt",
+    "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/21752.jpg",
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Women"}, {"key": "theme", "value": "100"}]
+  },
+  {
+    "imageID": 516558,
+    "season": "FW-2026",
+    "collection": "Women",
+    "theme": "Basic",
+    "product_main_group": "Garment",
+    "product_group": "Jackets",
+    "colors": [{"key": "100", "rgb": "#4CAF50", "name": "Green"}, {"key": "200", "rgb": "#FC0F50", "name": "Red"}],
+    "sizes": ["S", "M", "L", "XL"],
+    "id": 74745,
+    "key": "30015",
+    "name": "Magda",
+    "description": "Jacket",
+    "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/30680.jpg",
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Women"}, {"key": "theme", "value": "100"}]
+  },
+  {
+    "imageID": 516558,
+    "season": "FW-2026",
+    "collection": "Women",
+    "theme": "Basic",
+    "product_main_group": "Garment",
+    "product_group": "Shirts",
+    "colors": [{"key": "100", "rgb": "#4CAF50", "name": "Green"}, {"key": "200", "rgb": "#FC0F50", "name": "Red"}],
+    "sizes": ["S", "M", "L", "XL"],
+    "id": 74746,
+    "key": "30016",
+    "name": "Nicole",
+    "description": "Shirt",
+    "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/30682.jpg",
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Men"}, {"key": "theme", "value": "302"}]
+  },
+  {
+    "imageID": 516558,
+    "season": "FW-2026",
+    "collection": "Women",
+    "theme": "Basic",
+    "product_main_group": "Garment",
+    "product_group": "Jackets",
+    "colors": [{"key": "100", "rgb": "#4CAF50", "name": "Green"}, {"key": "200", "rgb": "#FC0F50", "name": "Red"}],
+    "sizes": ["S", "M", "L", "XL"],
+    "id": 74747,
+    "key": "30017",
+    "name": "Betty",
+    "description": "Jacket",
+    "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/30688.jpg",
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Men"}, {"key": "theme", "value": "301"}]
+  },
+  {
+    "imageID": 516558,
+    "season": "FW-2026",
+    "collection": "Women",
+    "theme": "Basic",
+    "product_main_group": "Garment",
+    "product_group": "Jackets",
+    "colors": [{"key": "100", "rgb": "#4CAF50", "name": "Green"}, {"key": "200", "rgb": "#FC0F50", "name": "Red"}],
+    "sizes": ["S", "M", "L", "XL"],
+    "id": 74748,
+    "key": "30018",
+    "name": "Karoline",
+    "description": "Jacket",
+    "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/30610.jpg",
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Men"}, {"key": "theme", "value": "300"}]
+  },
+  {
+    "imageID": 516558,
+    "season": "FW-2026",
+    "collection": "Women",
+    "theme": "Basic",
+    "product_main_group": "Garment",
+    "product_group": "Jackets",
+    "colors": [{"key": "100", "rgb": "#4CAF50", "name": "Green"}, {"key": "200", "rgb": "#FC0F50", "name": "Red"}],
+    "sizes": ["S", "M", "L", "XL"],
+    "id": 74749,
+    "key": "30019",
+    "name": "Sara",
+    "description": "Jacket",
+    "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/30643.jpg",
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}, {"key": "collection", "value": "151-Women"}, {"key": "theme", "value": "100"}]
+  },
+  {
+    "imageID": 516558,
+    "season": "FW-2026",
+    "collection": "Women",
+    "theme": "Basic",
+    "product_main_group": "Garment",
+    "product_group": "Jackets",
+    "colors": [{"key": "100", "rgb": "#4CAF50", "name": "Green"}, {"key": "200", "rgb": "#FC0F50", "name": "Red"}],
+    "sizes": ["S", "M", "L", "XL"],
+    "id": 74750,
+    "key": "30020",
+    "name": "Lara",
+    "description": "Jacket",
+    "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/30624.jpg",
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}]
+  },
+  {
+    "imageID": 516558,
+    "season": "FW-2026",
+    "collection": "Women",
+    "theme": "Basic",
+    "product_main_group": "Garment",
+    "product_group": "Jackets",
+    "colors": [{"key": "100", "rgb": "#4CAF50", "name": "Green"}, {"key": "200", "rgb": "#FC0F50", "name": "Red"}],
+    "sizes": ["S", "M", "L", "XL"],
+    "id": 74750,
+    "key": "30021",
+    "name": "Annette",
+    "description": "Jacket",
+    "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/30611.jpg",
+    "attributes": [{"key": "brand", "value": "011"}, {"key": "season", "value": "151"}]
+  },
+  {
+    "imageID": 516558,
+    "season": "FW-2026",
+    "collection": "Women",
+    "theme": "Basic",
+    "product_main_group": "Garment",
+    "product_group": "Jackets",
+    "colors": [{"key": "100", "rgb": "#1010F0", "name": "Blue"}, {"key": "200", "rgb": "#FC0F50", "name": "Red"}],
+    "sizes": ["S", "M", "L", "XL"],
+    "id": 74742,
+    "key": "30022",
     "name": "Kim",
     "description": "Jacket",
     "imageURL": "https://raw.githubusercontent.com/dfab1964/image/main/style.png",
@@ -478,6 +661,33 @@ function getProducts(attributes) {
     }
     
     return filterByAttributes(data, attributes);
+}
+
+function getProducts_new(searchParams) {
+    var data = [];    
+    var products = [];
+    
+    try {
+        data = JSON.parse(window.productList);
+    } catch (parseErr) {
+        console.error('Error parsing JSON:', parseErr);
+    }
+    
+    var filteredProducts = filterByAttributes(data, searchParams.attributes);
+    var productCount = filteredProducts.length;
+    var pageCount = Math.trunc(productCount / searchParams.pageLength) + (productCount % searchParams.pageLength);
+    if (searchParams.pageNo <= pageCount) {
+        var offset = (searchParams.pageNo-1) * searchParams.pageLength;
+        for (var i=offset; i<offset+searchParams.pageLength; i++) {
+            if (i < productCount) {
+                products.push(filteredProducts[i]);
+            } else {
+                break;
+            }
+        }
+    }
+    
+    return products;
 }
 
 function getProduct(key) {
