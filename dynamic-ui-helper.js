@@ -1,6 +1,6 @@
-async function fetchClone(htmlFile, elementID) {
+async function fetchClone(elementID) {
     try {
-            const response = await fetch(htmlFile);  
+            const response = await fetch('templates.html');  
             const data = await response.text();
 
             const tempDiv = document.createElement('div');
