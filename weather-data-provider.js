@@ -54,9 +54,8 @@ window.current = `{
 
 // ----------- functions ------------------
 
-
 async function fetchCurrentInfo(city) {
-    const url = 'https://api.weatherapi.com/v1/current.json?q='+city+'&lang=en&key=474c3630fc564cefbe9170341251402';
+    const url = 'https://api.weatherapi.com/v1/current.json?q=' + city + '&lang=en&key=474c3630fc564cefbe9170341251402';
     try {
         const response = await fetch(url);
         if (!response.ok) {
@@ -70,3 +69,27 @@ async function fetchCurrentInfo(city) {
     }
 }
 
+async function fetchLocationData() {
+    try {
+        var ip = await fetchPublicIP();
+
+        const locationResponse = await fetch(`https://api.weatherapi.com/v1/ip.json?key=${apiKey}&q=${ip}`);
+        const locationData = await locationResponse.json();
+
+        return locationData;
+    } catch (error) {
+        console.error('There was a problem with the fetch operation:', error);
+        throw error;  // Propagate the error if needed
+    }
+
+}
+
+async function fetchPublicIP() {
+    try {
+        const response = await fetch('https://api.ipify.org?format=json');
+        const data = await response.json();
+        console.log('Your Public IP Address is:', data.ip);
+    } catch (error) {
+        console.error('Error getting IP address:', error);
+    }
+}
