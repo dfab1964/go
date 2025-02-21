@@ -52,7 +52,9 @@ window.current = `{
   }
 }`;
 
+
 // ----------- functions ------------------
+const API_KEY = '474c3630fc564cefbe9170341251402';
 
 async function fetchCurrentInfo(city) {
     const url = 'https://api.weatherapi.com/v1/current.json?q=' + city + '&lang=en&key=474c3630fc564cefbe9170341251402';
@@ -73,7 +75,7 @@ async function fetchLocationData() {
     try {
         var ip = await fetchPublicIP();
 
-        const locationResponse = await fetch(`https://api.weatherapi.com/v1/ip.json?key=${apiKey}&q=${ip}`);
+        const locationResponse = await fetch(`https://api.weatherapi.com/v1/ip.json?key=${API_KEY}&q=${ip}`);
         const locationData = await locationResponse.json();
 
         return locationData;
