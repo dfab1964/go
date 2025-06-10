@@ -1,0 +1,21 @@
+1. Definire gli stili in classi CSS
+Esempio:
+            <div class="row" style="margin-right: 0px;margin-left: 0px;height: 80px;">
+                <div class="col-2" style="height: 70px;display: flex;align-items: center;justify-content: end;border-right-width: 0.2px;"><input type="checkbox" style="width: 20px;height: 20px;margin-right: 0px;margin-left: 0px;"></div>
+                <div class="col-9" style="height: 70px;display: flex;align-items: center;justify-content: start;">
+                    <h4 style="margin-bottom: 0px;font-family: Actor, sans-serif;">Ufficio Acquisti</h4>
+                </div>
+            </div>
+
+Questo è il singolo elemento nella parte sx dello schermo. Invece di avere style="...." dovresti definire delle classi.
+Ad esempio, definisci le seguenti classi: "dept-row", "dept-col-empty", "dept-checkbox", "dept-col", "dept-col-text" e quindi l'html diventa:
+
+            <div class="row dept-row">
+                <div class="col-2 dept-col-empty"><input type="checkbox" class="dept-checkbox"></div>
+                <div class="col-9 dept-col">
+                    <h4 class="dept-col-text">Ufficio Acquisti</h4>
+                </div>
+            </div>
+
+Nota che un elemento può avere più classi, basta separarle con uno spazio.
+Dovresti fare questo un po' in tutto l'html in modo da avere un codice più pulito e con gli stili separati dalla definizione degli elementi.
